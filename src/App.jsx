@@ -22,11 +22,11 @@ function App() {
       <div className="clas">
         <h1>hello teacher</h1>
         <h3>hello              </h3>
-        <p>pppppppp</p>
-        <p>qqqqqqqqqq</p>
         <h4>
           azizbek
         </h4>
+        <button>azzzz</button>
+        <p>ffff</p>
       </div>
     </>
 
