@@ -1,0 +1,27 @@
+import './App.css'
+
+import { Routes, Route } from 'react-router-dom';
+import About from './pages/About';
+import Home from './pages/home';
+import Menu from './pages/menu';
+import Drinks from './pages/drinks'
+import Burgers from './pages/burgers'
+import Navbar from './cpmponents/navbar';
+function App() {
+
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/drinks" element={<Drinks />} />
+        <Route path="/burgers" element={<Burgers />} />
+      </Routes>
+    </>
+
+  )
+}
+
+export default App
